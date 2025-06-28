@@ -82,20 +82,20 @@ def get_available_scripts(language):
     scripts = {
         'vi': [
             {"name": "1. Checkin hằng ngày | Snoonaut Bot", "value": "checkin", "locked": True},
-            {"name": "2. Tự động hoàn thành nhiệm vụ [ Twitter | Discord | Telegram... ] | Snoonaut Bot", "value": "autotask", "locked": False},
-            {"name": "3. Tự động hoàn thành người giới thiệu [ Invite: 2 - 5 - 10... ] | Snoonaut Bot", "value": "autotaskref", "locked": True},
-            {"name": "4. Tự động submit ví sol (address.txt) | Snoonaut Bot", "value": "submitsol"},
+            {"name": "2. Tự động hoàn thành nhiệm vụ [ Twitter | Discord | Telegram... ] | Snoonaut Bot", "value": "autotask", "locked": True},
+            {"name": "3. Tự động hoàn thành người giới thiệu [ Invite: 2 - 5 - 10... ] | Snoonaut Bot", "value": "autotaskref"},
+            {"name": "4. Tự động submit ví sol (address.txt) | Snoonaut Bot", "value": "submitsol", "locked": True},
 
-            {"name": "8. Exit", "value": "exit"},
+            {"name": "5. Exit", "value": "exit"},
             
         ],
         'en': [          
             {"name": "1. Daily Checkin | Snoonaut Bot", "value": "checkin", "locked": True},
             {"name": "2. Auto tasks [ Twitter | Discord | Telegram... ] | Snoonaut Bot", "value": "autotask", "locked": True},
-            {"name": "3. Auto tasks Referral [ Invite: 2 - 5 - 10... ] | Snoonaut Bot", "value": "autotaskref", "locked": True},
-            {"name": "4. Auto Submit Wallet Sol (address.txt) | Snoonaut Bot", "value": "submitsol"},
+            {"name": "3. Auto tasks Referral [ Invite: 2 - 5 - 10... ] | Snoonaut Bot", "value": "autotaskref"},
+            {"name": "4. Auto Submit Wallet Sol (address.txt) | Snoonaut Bot", "value": "submitsol", "locked": True},
             
-            {"name": "8. Exit", "value": "exit"},
+            {"name": "5. Exit", "value": "exit"},
         ]
     }
     return scripts[language]
